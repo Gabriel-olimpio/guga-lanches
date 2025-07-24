@@ -1,4 +1,4 @@
-# Sistema de Pedidos Guga Lanches**
+# Sistema de Pedidos Guga Lanches
 
 ## Equipe:
 - Andrey Carvalho de Lemos
@@ -6,15 +6,15 @@
 - Hellen Neves Barbosa
 
  ## Problema:
-	A lanchonete **Guga Lanches** precisa de uma interface gráfica para que seus clientes possam realizar pedidos de forma prática e intuitiva. Essa interface deve exibir todos os produtos disponíveis, mostrando o **nome** e o **valor unitário** de cada item. Ao lado de cada produto, deve haver um botão que permita ao cliente **adicionar o item ao carrinho de compras**.
-	Na área do **carrinho**, o cliente poderá visualizar:
+A lanchonete **Guga Lanches** precisa de uma interface gráfica para que seus clientes possam realizar pedidos de forma prática e intuitiva. Essa interface deve exibir todos os produtos disponíveis, mostrando o **nome** e o **valor unitário** de cada item. Ao lado de cada produto, deve haver um botão que permita ao cliente **adicionar o item ao carrinho de compras**.
+Na área do **carrinho**, o cliente poderá visualizar:
 		- Os produtos selecionados
 		- A quantidade de cada item    
 		- O **subtotal por produto**
 		- O **valor total do pedido**
-	Além disso, o cliente deverá selecionar a **forma de pagamento** (como dinheiro, cartão ou Pix) e o **tipo de consumo** (consumir no local ou retirada).
-	Ao confirmar o pedido, será exibida uma tela solicitando o **nome** e o **telefone** do cliente.
-	Todas as informações: cliente, produtos, forma de pagamento e tipo de consumo deverão ser **armazenadas no banco de dados** da lanchonete.
+Além disso, o cliente deverá selecionar a **forma de pagamento** (como dinheiro, cartão ou Pix) e o **tipo de consumo** (consumir no local ou retirada).
+Ao confirmar o pedido, será exibida uma tela solicitando o **nome** e o **telefone** do cliente.
+Todas as informações: cliente, produtos, forma de pagamento e tipo de consumo deverão ser **armazenadas no banco de dados** da lanchonete.
 
 ## Uso do programa:
 
@@ -25,7 +25,7 @@
 2) **Crie o banco de dados no pgAdmin (PostgreSQL)**
 
 ```postgresql
-	CREATE SCHEMA gugapd;
+CREATE SCHEMA gugapd;
 
 -- Cria a tabela de produtos do cardápio
 CREATE TABLE gugapd.produtos (
